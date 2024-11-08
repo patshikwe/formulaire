@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire HTML</title>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <h1>Formulaire HTML</h1>
+        <section class="one">
+            <form action="" method="get">
+                <legend>Vos cordonnées</legend>
+                <div class="container__name1">
+                    <label for="firstName">Prénoms :</label>
+                    <input type="text" id="firstName" name="firstName">
+                </div>
+                <div class="container__name2">
+                    <label for="name">Nom :</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div class="container__country">
+                    <label for="country">Pays :</label>
+                    <input type="text" id="country" list="countryList" name="country">
+                    <datalist id="countryList">
+                        <option value="France"></option>
+                        <option value="RDC"></option>
+                        <option value="USA"></option>
+                        <option value="Belgique"></option>
+                        <option value="Angleterre"></option>
+                        <option value="Congo"></option>
+                    </datalist>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
